@@ -8,6 +8,7 @@ pipeline {
                     echo "Multiline shell steps works too"
                     ls -lah
                 '''
+                archiveArtifacts artifacts: 'archiveArtifacts artifacts: \'target/*.jar\'', fingerprint: true, followSymlinks: false
             }
         }
     }
