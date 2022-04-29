@@ -10,16 +10,16 @@ pipeline {
     }
  post {
   always {
-      echo 'One or more steps need to be included within each condition's block.'
+      echo 'One or more steps need to be included within each condition block.'
   }
   unstable {
-      echo 'One or more steps need to be included within each condition's block.'
+      echo 'One or more steps need to be included within each conditions block.'
   }
   success {
-      echo 'One or more steps need to be included within each condition's block.'
+      echo 'One or more steps need to be included within each conditions block.'
   }
   fixed {
-      echo 'One or more steps need to be included within each condition's block.'
+      echo 'One or more steps need to be included within each conditions block.'
   }
 }
 }
