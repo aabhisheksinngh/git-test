@@ -16,7 +16,7 @@ node {
            
 		else {
                
-			build 'JenkinsPipeline'
+			build 'pipelinedemo12345'
               
 			 echo 'Running on Stage #1'
            
